@@ -1,8 +1,10 @@
-# Object Detection using YOLOv8✨
+# Object Detection using MediaPipe✨
 
 ### Overview
 
-This is a camera app that continuously detects the objects (bounding boxes, classes, and confidence) in the frames seen by your device's back camera, in an image imported from the device gallery,  or in a video imported by the device gallery, with the option to use a [Object Detection](https://storage.cloud.google.com/tf_model_garden/vision/qat/mobilenetv2_ssd_coco/mobilenetv2_ssd_256_uint8.tflite), and [Animal](https://storage.googleapis.com/mediapipe-tasks/object_detector/efficientdet_lite0_uint8.tflite) model.
+This is a camera app that continuously detects the objects (bounding boxes, classes, and confidence) in the frames seen by your device's back camera, in an image imported from the device gallery,  or in a video imported by the device gallery, with the option to use a [Object Detection](https://drive.google.com/file/d/14WwupKYQNYy6JXnKCqGGPhljXOLCtgWR/view?usp=sharing), and [Animal](https://drive.google.com/file/d/1koQqjJfU-z7lLpMvXxPpkJ7R4YycV6oA/view?usp=sharing) model.
+
+Object detection model has 7 classes (face, keyboard, mouse, monitor, laptop, microphone, and xboxcontroller). Animal model has 5 classes (cat, dog, monkey, panda, penguin).
 
 The model files are downloaded by a Gradle script when you build and run the app. You don't need to do any steps to download TFLite models into the project explicitly unless you wish to use your own models. If you do use your own models, place them into the app's *assets* directory.
 
