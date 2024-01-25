@@ -1,15 +1,14 @@
-
-# MediaPipe Tasks Object Detection Android Demo
+# Object Detection using MediaPipe✨
 
 ### Overview
 
-This is a camera app that continuously detects the objects (bounding boxes, classes, and confidence) in the frames seen by your device's back camera, in an image imported from the device gallery,  or in a video imported by the device gallery, with the option to use a quantized [MobileNetV2](https://storage.cloud.google.com/tf_model_garden/vision/qat/mobilenetv2_ssd_coco/mobilenetv2_ssd_256_uint8.tflite) [EfficientDet Lite 0](https://storage.googleapis.com/mediapipe-tasks/object_detector/efficientdet_lite0_uint8.tflite), or [EfficientDet Lite2](https://storage.googleapis.com/mediapipe-tasks/object_detector/efficientdet_lite2_uint8.tflite) model.
+This is a camera app that continuously detects the objects (bounding boxes, classes, and confidence) in the frames seen by your device's back camera, in an image imported from the device gallery,  or in a video imported by the device gallery, with the option to use a [Object Detection](https://drive.google.com/file/d/14WwupKYQNYy6JXnKCqGGPhljXOLCtgWR/view?usp=sharing), and [Animal](https://drive.google.com/file/d/1koQqjJfU-z7lLpMvXxPpkJ7R4YycV6oA/view?usp=sharing) model.
+
+Object detection model has 7 classes (face, keyboard, mouse, monitor, laptop, microphone, and xboxcontroller). Animal model has 5 classes (cat, dog, monkey, panda, penguin).
 
 The model files are downloaded by a Gradle script when you build and run the app. You don't need to do any steps to download TFLite models into the project explicitly unless you wish to use your own models. If you do use your own models, place them into the app's *assets* directory.
 
 This application should be run on a physical Android device to take advantage of the physical camera, though the gallery tab will enable you to use an emulator for opening locally stored files.
-
-![Object Detection Demo](object_detection.gif?raw=true "Object Detection Demo")
 
 ## Build the demo using Android Studio
 
@@ -29,7 +28,7 @@ This application should be run on a physical Android device to take advantage of
     Android Studio project.
 
 *   From the Open File or Project window that appears, navigate to and select
-    the mediapipe/examples/object_detection/android directory. Click OK. You may
+    the ObjectDetectionApp-MediaPipe/android directory. Click OK. You may
     be asked if you trust the project. Select Trust.
 
 *   If it asks you to do a Gradle Sync, click OK.
