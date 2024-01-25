@@ -28,7 +28,7 @@ This application should be run on a physical Android device to take advantage of
     Android Studio project.
 
 *   From the Open File or Project window that appears, navigate to and select
-    the ObjectDetectionApp-MediaPipe/android directory. Click OK. You may
+    the *ObjectDetectionApp-MediaPipe* directory. Click OK. You may
     be asked if you trust the project. Select Trust.
 
 *   If it asks you to do a Gradle Sync, click OK.
