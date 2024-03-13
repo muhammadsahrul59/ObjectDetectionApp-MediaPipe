@@ -50,6 +50,10 @@ You can Download the Dataset in this link below :
 Downloading, extraction, and placing the models into the *assets* folder is
 managed automatically by the **download.gradle** file.
 
+### Object Detection App Demo
+
+![obj_detection](https://github.com/muhammadsahrul59/ObjectDetectionApp-MediaPipe/assets/101655285/e71daf71-c64f-4b44-a980-5284faeabefe)
+
 ## Run the notebook only on Google Colab
 ```
 - Download the file above
